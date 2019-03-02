@@ -1,4 +1,4 @@
-package com.example.fluttersample;
+package com.passionvirus.fluttersample;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;
