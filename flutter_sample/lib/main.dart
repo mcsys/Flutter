@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'package:firebase_messaging/firebase_messaging.dart';
 
 void main() => runApp(MyApp());
@@ -41,6 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   void initState() {
     super.initState();
+    
     _firebaseMessaging.configure(
       onMessage: (Map<String, dynamic> message) {
         print('on message $message');
@@ -57,6 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
     _firebaseMessaging.getToken().then((token){
       print(token);
     });
+    
   }
 
   @override
