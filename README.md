@@ -13,7 +13,7 @@
 - PageView
 - Talbe
 - SilverAppBar
-- 슬리버리스트 / 슬리버그리드
+- Sliver List / Sliver Grid
 - FadeInImage
 - Stream Builder
 - InheritedModel
